@@ -1,0 +1,36 @@
+start
+input panjang dan lebar from user;
+hasil = panjang * lebar;
+print hasil;
+end
+
+start
+input detik from user;
+jam = detik / 3600;
+temp = detik % 3600
+menit = temp / 60;
+print jam and menit;
+end
+
+start
+get input from user;
+if (input % 2 = 0) print even;
+else print odd;
+end
+
+start
+get input from user;
+area = 3,14 * input^2;
+print area;
+end
+
+start
+get x, y, z from user;
+if (x > y and x > cz)
+max = x;
+else if (y > x and y > z)
+max = y;
+else if (z > x and z > y)
+max = z;
+print max;
+end
